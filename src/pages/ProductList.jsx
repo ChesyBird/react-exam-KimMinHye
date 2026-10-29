@@ -3,6 +3,7 @@ import { products } from "../datas/products";
 
 const ProductList = () => {
 
+return(
     <div>
         <h2>상품목록</h2>
         <div className="product-list">
@@ -14,6 +15,7 @@ const ProductList = () => {
             ))}
         </div>
     </div>
+)
 }
 
 export default ProductList;
